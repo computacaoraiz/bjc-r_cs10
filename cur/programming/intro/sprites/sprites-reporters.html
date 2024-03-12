@@ -1,67 +1,68 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-   <head>
-	<meta charset="UTF-8">
-        <script src="/bjc-r/llab/loader.js"></script>
-      
-        <title>Personagens: Repórteres</title>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-176402054-1');
-</script>
+<head>
+   <meta charset="UTF-8">
+
+   <script src="/bjc-r/llab/loader.js"></script>
+
+   <title>Personagens: Repórteres (reporters)</title>
+
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-176402054-1');
+   </script>
 </head>
-   <body>
-        <p>
-        	<strong>Blocos Sensores</strong>
-        </p>
-        <p>
-        	Na parte inferior da guia de Movimento existem três blocos com
-                forma diferente dos outros. Os blocos de forma oval
-   shaped differently from the others. <img
-   src="../../../../img/topic1/topic1_xposition.png" alt="X Position
-   Reporter"/> e <img
-   src="../../../../img/topic1/topic1_yposition.png" alt="Y Position
-   Reporter"/> são chamados de <em>repórteres</em>  (não precisamos nos
-   preocupar com o terceiro bloco no momento). Diferentemente dos blocos
-   de <em>comandos</em>, que usamos até agora e que tem formato de quebra-cabeça,
-   blocos repórteers não realizam uma ação (como mover um personagem ou exibir
-   um balão de fala) por si mesmos. Ao invés disso eles <em>reportam</em>,
-   relatam, retornam um valor, usualmente para ser passado como entrada em algum
-   outro bloco.
-        </p>
-        <p>
-        	Esses repórteres, em particular, dizem para você onde
-		o personagem está no palco. Como em uma aula de álgebra,
-		o <b>x</b> significa a posição da esquerda para a direita,
-		e o <b>y</b> significa a posição de baixo paa cima.
-        </p>
-        <p>
-Se o seu personagem estiver no meio do palco, arraste-o para algum
-outro lugar fora do centro. Depois arraste o bloco <b>x position</b> para a
-área de programa e clique sobre ele. Você verá um pequeno balão de texto
-próximo ao bloco:
-</p><img src="../../../../img/topic1/xpos-bubble.png" alt="X Position
-   speech balloon"/><p>
-Clique na caixa de seleção de cor cinza do lado esquerdo do bloco <b>x position</b>,
-na guia de blocos, e então olhe para o palco. Você verá que o valor que o bloco
-relata agora também está exibido no palco:
-        </p><img src="../../../../img/topic1/palette-checkbox.png"
-   alt="X Position block's checkbox"/>&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="../../../../img/topic1/watcher.png" alt="X Position stage
-   watcher"/>
-<p>Esta visualização no palco é chamada de <em>monitor (watcher)</em>.</p>
-        <p>
-        	O bloco <img
-   src="../../../../img/topic1/topic1_xposition.png" alt="X Position
-   Sensor Block"/> e o bloco <img
-   src="../../../../img/topic1/topic1_yposition.png" alt="Y Position
-   Sensor Block"/> informam a posição do personagem na tela. Mova o personagem
-   pela tela e perceba como os valores relatador por esses blocos mudam a cada
-   instante.
-        </p>
-    </body>
+
+<body>
+   <p>
+      <strong>Blocos Sensores</strong>
+   </p>
+   <p>
+      Na parte inferior da guia de Movimento existem três blocos com
+      forma diferente dos outros. Os blocos de forma oval
+      shaped differently from the others. <img src="../../../../img/topic1/topic1_xposition.png" alt="X Position
+   Reporter" /> e <img src="../../../../img/topic1/topic1_yposition.png" alt="Y Position
+   Reporter" /> são chamados de <em>repórteres</em> (não precisamos nos
+      preocupar com o terceiro bloco no momento). Diferentemente dos blocos
+      de <em>comandos</em>, que usamos até agora e que tem formato de quebra-cabeça,
+      blocos repórteers não realizam uma ação (como mover um personagem ou exibir
+      um balão de fala) por si mesmos. Ao invés disso eles <em>reportam</em>,
+      relatam, retornam um valor, usualmente para ser passado como entrada em algum
+      outro bloco.
+   </p>
+   <p>
+      Esses repórteres, em particular, dizem para você onde
+      o personagem está no palco. Como em uma aula de álgebra,
+      o <b>x</b> significa a posição da esquerda para a direita,
+      e o <b>y</b> significa a posição de baixo paa cima.
+   </p>
+   <p>
+      Se o seu personagem estiver no meio do palco, arraste-o para algum
+      outro lugar fora do centro. Depois arraste o bloco <b>x position</b> para a
+      área de programa e clique sobre ele. Você verá um pequeno balão de texto
+      próximo ao bloco:
+   </p><img src="../../../../img/topic1/xpos-bubble.png" alt="X Position
+   speech balloon" />
+   <p>
+      Clique na caixa de seleção de cor cinza do lado esquerdo do bloco <b>x position</b>,
+      na guia de blocos, e então olhe para o palco. Você verá que o valor que o bloco
+      relata agora também está exibido no palco:
+   </p><img src="../../../../img/topic1/palette-checkbox.png"
+      alt="X Position block's checkbox" />&nbsp;&nbsp;&nbsp;&nbsp;
+   <img src="../../../../img/topic1/watcher.png" alt="X Position stage
+   watcher" />
+   <p>Esta visualização no palco é chamada de <em>monitor (watcher)</em>.</p>
+   <p>
+      O bloco <img src="../../../../img/topic1/topic1_xposition.png" alt="X Position
+   Sensor Block" /> e o bloco <img src="../../../../img/topic1/topic1_yposition.png" alt="Y Position
+   Sensor Block" /> informam a posição do personagem na tela. Mova o personagem
+      pela tela e perceba como os valores relatador por esses blocos mudam a cada
+      instante.
+   </p>
+</body>
 </html)

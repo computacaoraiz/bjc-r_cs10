@@ -1,66 +1,71 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <script src="/bjc-r/llab/loader.js"></script>
 
-        <title>
-            Explorando o Snap<em>!</em>: Programas (scripts)
-        </title>
+<head>
+    <meta charset="UTF-8">
+
+    <script src="/bjc-r/llab/loader.js"></script>
+
+    <title>
+        Explorando o Snap<em>!</em>: Programas (scripts)
+    </title>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-176402054-1');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-176402054-1');
+    </script>
 </head>
-    <body>
 
-        <p>
-            Agora que você descobriu como mover um personagem, você deve estar se perguntando
-	    como comandar o personagem para que ele faça mais coisas.
-        </p>
-        <p>
-            Para fazer com que o personagem faça algo mais do que só se mover, precisamos utilizar
-	    diferentes tipos de blocos e conectá-los entre si. Você pode conectar blocos "grudando"
-	    uns aos outros --- arraste um bloco logo abaixo do outro bloco que você quer conectar:
-	    os blocos são "magnéticos" e serão conectados quando o "dente" de seu bloco&#8217s estiver
-	    próximo do encaixe do bloco acima. Você verá uma indicação como na imagem abaixo, uma
-	    barra, que mostra onde o bloco irá ficar após você soltar.
-        </p>
-        <p>
-            <img class="indent" src="../../../../img/topic1/topic1_blocks_snapping.png" alt="Blocks Snapping Together"/>
-        </p>
-        <p>
-            Quando você conecta blocos desse jeito, você está criando um programa (<em>script</em>).
-	    Um programa Snap<em>!</em> consiste em um ou mais desses scripts.
-        </p>
-        <p class="alert quoteGreen">
-            Tente recriar o programa a seguir na área de programas do Snap<em>!</em>. O bloco
-	    roxo <code>say...</code> está disponível na guia <b>Aparência (looks)</b>.
-            <br>
-            <br>
+<body>
 
-            <img class="center" src="../../../../img/topic1/topic1_justmadeascript.png" alt="You just made a script!"/>
-        </p>
-        <p>
-            O que ocorrerá se você rodar esse programa? Lembre-se, um programa dirá ao
-	    personagem o que ele deve fazer. Clique no programa e veja o que ocorre! Você
-	    sabe que seu programa está rodando se aparecer uma borda iluminada ao redor
-	    dele:
-        </p>
-        <p>
-            <img class="center" src="../../../../img/topic1/topic1_highlightedscript.png" alt="Script Running"/>
-        </p>
-        <p>
-            Note bem: os <b>blocos em um programa sempre rodam em uma order específica, do topo
-	    do programa até seu fim</b>. Geralmente o Snap<em>!</em> espera até que um bloco
-            termine seu trabalho antes de continuar para o próximo bloco (uma exceção comum ocorre
-	    com blocos que tocam sons: o trabalho do bloco é <i>iniciar</i> o som, e o bloco
-	    logo abaixo começará a executar enquanto o som ainda está tocando.
-        </p>
+    <p>
+        Agora que você descobriu como mover um personagem, você deve estar se perguntando
+        como comandar o personagem para que ele faça mais coisas.
+    </p>
+    <p>
+        Para fazer com que o personagem faça algo mais do que só se mover, precisamos utilizar
+        diferentes tipos de blocos e conectá-los entre si. Você pode conectar blocos "grudando"
+        uns aos outros &mdash; arraste um bloco logo abaixo do outro bloco que você quer conectar:
+        os blocos são "magnéticos" e serão conectados quando o encaixe superior de seu bloco estiver
+        próximo do dente inferior do bloco acima (você encaixa os blocos como peças de um
+        quebra-cabeça). Você verá uma indicação visual como na imagem abaixo, uma barra, que mostra
+        onde o bloco irá ficar após você o soltar.
+    </p>
+    <p>
+        <img class="indent" src="../../../../img/topic1/topic1_blocks_snapping.png" alt="Blocks Snapping Together" />
+    </p>
+    <p>
+        Quando você conecta blocos desse jeito, você está criando um programa (<em>script</em>).
+        Um programa Snap<em>!</em> consiste em um ou mais desses scripts.
+    </p>
+    <p class="alert quoteGreen">
+        Tente recriar o programa a seguir na área de programas do Snap<em>!</em>. O bloco
+        roxo <code>say...</code> está disponível na guia <b>Aparência (looks)</b>.
+        <br>
+        <br>
+        <img class="center" src="../../../../img/topic1/topic1_justmadeascript.png" alt="You just made a script!" />
+    </p>
+    <p>
+        O que ocorrerá se você rodar esse programa? Lembre-se: um programa (script) diz ao
+        personagem o que ele deve fazer. Clique no programa e veja o que ocorre! É possível
+        saber quando seu programa está rodando, está em execução, pois irá aparecer uma
+        borda iluminada ao redor dele:
+    </p>
+    <p>
+        <img class="center" src="../../../../img/topic1/topic1_highlightedscript.png" alt="Script Running" />
+    </p>
+    <p>
+        Note bem: os <b>blocos em um programa sempre rodam em uma ordem específica, do topo
+        do programa até seu fim</b>. Geralmente o Snap<em>!</em> espera até que um bloco
+        termine seu trabalho antes de continuar para o próximo bloco (uma exceção comum ocorre
+        com blocos que tocam sons: o trabalho do bloco é <i>iniciar</i> o som, e o bloco
+        logo abaixo começará a executar enquanto o som ainda está tocando.
+    </p>
 
-    </body>
+</body>
+
 </html>
