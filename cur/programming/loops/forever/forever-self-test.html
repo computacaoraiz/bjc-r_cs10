@@ -1,72 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <script src="/bjc-r/llab/loader.js"></script>
-        <title>
-            Self Test: Looping and Sprite Direction
-        </title>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <script src="/bjc-r/llab/loader.js"></script>
+    <title>Auto-avaliação: Loops e Direcionamento do Sprite</title>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-176402054-1');
-</script>
-</head>
-	<body>
-
-		<!-- question 1 -->
-		<div class="assessment-data"
-		type="multiplechoice" identifier="direction"
-		hasinlinefeedback="true" maxchoices="1"
-		responseIdentifier="resp1" shuffle="true" >
-			<div class="prompt">
-				<p>
-					How many times will the sprite say "Hello!"?
-				</p>
-				<img src="/bjc-r/img/prog/forever-1.png"/>
-			</div>
-			<div class="choice" identifier="c1">
-				<div class="text">
-					1
-				</div>
-				<div class="feedback">
-					Think about what the forever block does here.
-				</div>
-			</div>
-			<div class="choice" identifier="c2">
-				<div class="text">
-					2
-				</div>
-				<div class="feedback">
-					Why would the sprite stop at 2 times?
-				</div>
-			</div>
-
-			<div class="choice" identifier="c3">
-				<div class="text">
-					10
-				</div>
-				<div class="feedback">
-					Why would the sprite stop at 10 times?
-				</div>
-			</div>
-
-			<div class="choice" identifier="c4">
-				<div class="text">
-					Continuously
-				</div>
-				<div class="feedback">
-					Correct! Unless told to do so, the sprite will not stop saying "Hello!" when the say block is embedded in a forever loop.
-				</div>
-			</div>
-			<div class="responseDeclaration" identifier="resp1">
-				<div class="correctResponse" identifier="c4"></div>
-			</div>
-		</div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176402054-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-176402054-1');
+    </script>
+  </head>
+  <body>
+    <!-- question 1 -->
+    <div class="assessment-data" type="multiplechoice" identifier="direction"
+    hasinlinefeedback="true" maxchoices="1" responseIdentifier="resp1" shuffle="true">
+      <div class="prompt">
+        <p>
+          Quantas vezes o sripte dirá "Hello!"?
+        </p>
+	<img src="/bjc-r/img/prog/forever-1.png"/>
+      </div>
+      <div class="choice" identifier="c1">
+        <div class="text">1</div>
+        <div class="feedback">Pense sobre o que o bloco forever está fazendo.</div>
+      </div>
+      <div class="choice" identifier="c2">
+        <div class="text">2</div>
+        <div class="feedback">Por que o sprite pararia depois de 2 vezes?</div>
+      </div>
+      <div class="choice" identifier="c3">
+        <div class="text">10</div>
+        <div class="feedback">Por que o sprite pararia depois de 10 vezes?</div>
+      </div>
+      <div class="choice" identifier="c4">
+        <div class="text">Continuamente	</div>
+        <div class="feedback">Correto! A menos que alguém comande a parada, o
+	sprite continuará dizendo "Hello!" quando o bloco <b>say</b> estiver
+	dentro de um loop forever.</div>
+      </div>
+      <div class="responseDeclaration" identifier="resp1">
+      <div class="correctResponse" identifier="c4"></div>
+    </div>
+  </div>
 
 		<!-- question 2 -->
 				<div class="assessment-data"
