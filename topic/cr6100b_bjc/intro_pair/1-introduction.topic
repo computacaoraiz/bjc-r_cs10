@@ -1,0 +1,39 @@
+// Tradução para o pt-br
+title: Bem-vindo ao Snap<em>!</em>
+
+{
+h2: Grandes Idéias
+big-idea: Explorar o conceito de <b>abstração</b> com os blocos do Snap<em>!</em> e perceber como isso se relaciona com a Ciência da Computação
+big-idea: Explorar o conceito de <b>programação seqüencial</b>
+// big-idea: Understand and analyze some of the impact of the internet on our culture
+// video: Video Lecture: Abstraction [https://coursesharing.org/courses/6/lectures/7]
+// reading: Blown To Bits: Chapter 1 [http://www.bitsbook.com/wp-content/uploads/2008/12/chapter1.pdf]
+
+
+h2: Atividades
+learning-goal: Familiarizar-se com a interface do Snap<em>!</em>
+learning-goal: Criar uma conta no Snap<em>!</em> para salvar e carregar projetos
+learning-goal: Fazer um personagem (<b>sprite</b>) cantar
+learning-goal: Aprender a usar o mouse para mover os personagens (<b>sprites</b>) dentro da tela
+//learning-goal: Criar um caleidoscópio
+
+heading: Introdução ao Snap<em>!</em>
+  resource: Introdução à Programação em Par [/bjc-r/cur/programming/guides/pair-programming-intro.html]
+  resource: Bem-vindo ao Snap<em>!</em> [/bjc-r/cur/programming/intro/snap/welcome-to-snap2.html]
+  resource: Visão geral da janela [/bjc-r/cur/programming/intro/snap/exploring-snap-overview-of-window.html]
+  resource: Blocos [/bjc-r/cur/programming/intro/snap/exploring-snap-blocks.html]
+  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?1]
+  resource: Programas (scripts) [/bjc-r/cur/programming/intro/snap/exploring-snap-scripts.html]
+  resource: Repórteres (reporters) [/bjc-r/cur/programming/intro/sprites/sprites-reporters.html]
+
+//heading: Caleidoscópio
+//  resource: Explorando o palco (stage): posicionanmento no palco [/bjc-r/cur/programming/intro/drawing/exploring-the-stage.html]
+//  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?2]
+//  resource: Experimentos com os comandos de desenhos [/bjc-r/cur/programming/intro/drawing/experiment-with-drawing-commands2.html]
+//  resource: Siga aquele mouse! [/bjc-r/cur/programming/loops/forever/follow-that-mouse.html]
+//  resource: Para sempre e um dia [/bjc-r/cur/programming/loops/forever/forever-and-a-day.html]
+//  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
+//  quiz: Nós não testaremos você para sempre [/bjc-r/cur/programming/loops/forever/forever-self-test.html]
+//  resource: Caleidoscópio [/bjc-r/cur/programming/intro/drawing/kaleidoscope-small.html]
+
+}

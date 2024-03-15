@@ -1,0 +1,28 @@
+title: Besides Blocks: Welcome to Data in Python!
+{
+h2: Big Ideas
+big-idea: Data structures can be used to analyze real world data.
+big-idea: Python allows us to read data from files on our computer.
+big-idea: Building an AI that can mimic a particular person's writing or speaking style isn't so hard (optional exercise).
+
+h2: Activities
+learning-goal: Get more practice with data structures.
+learning-goal: Learn to work with files in Python.
+learning-goal: Explore some features of some real world texts.
+learning-goal: Get a tiny taste of what C8 is like.
+
+
+heading: Introduction to Data Science
+	resource: Introduction to Text Processing [/bjc-r/cur/programming/python/hug_text_processing/python_text_processing_intro.html]
+    resource: Basic File Input in Python [/bjc-r/cur/programming/python/hug_text_processing/python_basic_files.html]
+    resource: Language Games [/bjc-r/cur/programming/python/hug_text_processing/python_language_games.html]
+    resource: Counting Words [/bjc-r/cur/programming/python/hug_text_processing/python_counting_words.html]
+    resource: Top Words [/bjc-r/cur/programming/python/hug_text_processing/python_top_words.html]
+    resource: Word Length [/bjc-r/cur/programming/python/hug_text_processing/python_word_length.html]
+
+heading: Markov Model
+    resource: Introduction to Markov Models [/bjc-r/cur/programming/python/hug_text_processing/python_markov_model_intro.html]
+    resource: Building a Markov Model (optional) [/bjc-r/cur/programming/python/hug_text_processing/python_building_a_markov_model.html]
+    resource: Generating Text with a Markov Model (optional) [/bjc-r/cur/programming/python/hug_text_processing/python_generating_text_with_a_markov_model.html]
+
+}
