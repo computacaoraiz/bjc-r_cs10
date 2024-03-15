@@ -26,14 +26,14 @@ heading: Introdução ao Snap<em>!</em>
   resource: Programas (scripts) [/bjc-r/cur/programming/intro/snap/exploring-snap-scripts.html]
   resource: Repórteres (reporters) [/bjc-r/cur/programming/intro/sprites/sprites-reporters.html]
 
-//heading: Caleidoscópio
-//  resource: Explorando o palco (stage): posicionanmento no palco [/bjc-r/cur/programming/intro/drawing/exploring-the-stage.html]
-//  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?2]
-//  resource: Experimentos com os comandos de desenhos [/bjc-r/cur/programming/intro/drawing/experiment-with-drawing-commands2.html]
-//  resource: Siga aquele mouse! [/bjc-r/cur/programming/loops/forever/follow-that-mouse.html]
-//  resource: Para sempre e um dia [/bjc-r/cur/programming/loops/forever/forever-and-a-day.html]
-//  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
-//  quiz: Nós não testaremos você para sempre [/bjc-r/cur/programming/loops/forever/forever-self-test.html]
-//  resource: Caleidoscópio [/bjc-r/cur/programming/intro/drawing/kaleidoscope-small.html]
+heading: Caleidoscópio
+  resource: Explorando o palco (stage): posicionanmento no palco [/bjc-r/cur/programming/intro/drawing/exploring-the-stage.html]
+  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?2]
+  resource: Experimentos com os comandos de desenhos [/bjc-r/cur/programming/intro/drawing/experiment-with-drawing-commands2.html]
+  resource: Siga aquele mouse! [/bjc-r/cur/programming/loops/forever/follow-that-mouse.html]
+  resource: Para sempre e um dia [/bjc-r/cur/programming/loops/forever/forever-and-a-day.html]
+  resource: Programação em par: troca [/bjc-r/cur/programming/guides/pair-programming-swap.html?3]
+  quiz: Nós não testaremos você para sempre [/bjc-r/cur/programming/loops/forever/forever-self-test.html]
+  resource: Caleidoscópio [/bjc-r/cur/programming/intro/drawing/kaleidoscope-small.html]
 
 }
