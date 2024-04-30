@@ -49,11 +49,11 @@ heading: Python APIs
 	//resource: Merging Part 2 [/bjc-r/cur/programming/libraries/dbsnap/merging-part2.html]
 	//resource: Aggregation [/bjc-r/cur/programming/libraries/dbsnap/aggregation.html]
 
-heading: Beetle Blocks
-	resource: Intro to Beetle Blocks [/bjc-r/cur/programming/libraries/beetleblocks/intro.html]
-	resource: Snap! vs Beetle Blocks [/bjc-r/cur/programming/libraries/beetleblocks/snap_vs_beetleblocks.html]
-	resource: Moving in 3D [/bjc-r/cur/programming/libraries/beetleblocks/moving.html]
-	resource: More Functionality [/bjc-r/cur/programming/libraries/beetleblocks/more_beetleblocks.html]
-	resource: Fractals [/bjc-r/cur/programming/libraries/beetleblocks/fractals_3d.html]
+//heading: Beetle Blocks (Phased out as of 2024)
+	//resource: Intro to Beetle Blocks [/bjc-r/cur/programming/libraries/beetleblocks/intro.html]
+	//resource: Snap! vs Beetle Blocks [/bjc-r/cur/programming/libraries/beetleblocks/snap_vs_beetleblocks.html]
+	//resource: Moving in 3D [/bjc-r/cur/programming/libraries/beetleblocks/moving.html]
+	//resource: More Functionality [/bjc-r/cur/programming/libraries/beetleblocks/more_beetleblocks.html]
+	//resource: Fractals [/bjc-r/cur/programming/libraries/beetleblocks/fractals_3d.html]
 
 }
